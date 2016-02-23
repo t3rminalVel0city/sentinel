@@ -6,7 +6,7 @@
  * NOTICE OF LICENSE
  *
  * Licensed under the 3-clause BSD License.
- *
+w *
  * This source file is subject to the 3-clause BSD License that is
  * bundled with this package in the LICENSE file.
  *
@@ -279,9 +279,9 @@ class IlluminateUserRepository implements UserRepositoryInterface
                 throw new InvalidArgumentException('No [login] credential was passed.');
             }
 
-            if (empty($password)) {
+            /*if (empty($password)) {
                 throw new InvalidArgumentException('You have not passed a [password].');
-            }
+            }*/
         }
 
         return true;
